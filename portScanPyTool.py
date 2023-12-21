@@ -17,7 +17,7 @@ def scan_port(target, port):
         scanner.close()
 
     except KeyboardInterrupt:
-        print("\nExit :(")
+        print("\nExit")
         sys.exit()
 
     except socket.error:
